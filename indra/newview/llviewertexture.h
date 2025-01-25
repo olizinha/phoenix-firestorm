@@ -43,7 +43,6 @@
 #include <list>
 
 // <FS:Ansariel> Max texture resolution
-extern U32 DESIRED_NORMAL_TEXTURE_SIZE;
 constexpr F32 MIN_VRAM_BUDGET = 768.f; // <FS:Ansariel> Expose max texture VRAM setting
 
 class LLFace;
@@ -226,6 +225,7 @@ public:
     static S32 sAuxCount;
     static LLFrameTimer sEvaluationTimer;
     static F32 sDesiredDiscardBias;
+    static U32 sBiasTexturesUpdated;
     static S32 sMaxSculptRez ;
     static U32 sMinLargeImageSize ;
     static U32 sMaxSmallImageSize ;
