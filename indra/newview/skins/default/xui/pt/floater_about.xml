@@ -46,7 +46,7 @@ Versão do servidor de voz: [VOICE_VERSION]
 	<tab_container name="about_tab">
 		<panel label="Info" name="support_panel">
 			<text name="support_intro">    
-For the latest information about Firestorm, visit    
+Para obter as informações mais recentes sobre o Firestorm, visite    
 https://www.firestormviewer.org
     		</text>
 			<button label="Copiar" name="copy_btn"/>
